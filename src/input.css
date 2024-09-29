@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card1 {
+    @apply flex justify-center items-center gap-[5vw] md:pl-16  lg:py-8  w-full flex-wrap py-8 sm:py-12;
+}
+/* w-[32vw] */
+.card2{
+    @apply flex flex-col gap-4 w-[70%]  sm:w-[30rem] lg:w-[32vw];
+}
+
+.text1{
+    @apply text-[blueviolet] text-4xl sm:text-5xl  font-extrabold;
+}
+
+.text2{
+    @apply font-[18px] text-[#777777] ;
+}
+.main-2-img{
+    @apply flex justify-end;
+}
+.main2-img{
+   @apply h-[27rem] w-[27rem] self-center;
+}
+.btn-main-2{
+    @apply border-2 border-[#d3d3d3a8] bg-white text-[#1cb1f6d2] rounded-[10px] font-semibold text-sm text-center h-11 w-3/5 mt-4;
+}
+
+.white-color{
+    @apply flex flex-col gap-4 text-white py-4 px-8 ;
+}
+.footer-content{
+    @apply text-[15px] font-bold text-[#bea7d2] hover:text-white; 
+}
